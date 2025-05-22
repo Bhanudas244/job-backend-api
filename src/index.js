@@ -11,7 +11,7 @@ const routes = require("./routes");
  require("./config/db.config");
 
 const app = express();
-
+  
 app.use(express.static(path.resolve("./public")));
 app.use(helmet({ contentSecurityPolicy: false }));
 app.use(cors());
