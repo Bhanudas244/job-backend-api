@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "nodemon src/index.js",
-      "build": "[my-framework] build --output public"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
